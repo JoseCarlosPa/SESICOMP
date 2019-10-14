@@ -9,6 +9,7 @@
     color: white;
 }
 .texto_nav_bar{
+    margin-top: 15%;
     text-align: center;
     font-family: Roboto-Bold;
     color: white;
@@ -73,3 +74,47 @@
 
 }
 /*Imagenes de Fondos ----------------------------*/
+
+.container_prodcutos{
+    background-image: url("backround/triangles_back 001.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+/*Productos-----------------------------*/
+
+.container_prodcutos_general{
+    margin-left: 7%;
+}
+
+.text_productos{
+
+    font-weight: bold;
+    font-size: 150%;
+    color: #143557;
+    line-height: 24px;
+}
+
+.container_cards_chapp{
+    background: purple;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    margin-left: 10%;
+    margin-right: 30%;
+    width: 80em;
+    height: 20em;
+    box-shadow: 7px 7px 7px #666;        /* Sombra normal */
+}
+
+.container_cards_msys{
+    background: #ff8400;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    margin-left: 10%;
+    margin-right: 30%;
+    width: 80em;
+    height: 20em;
+    box-shadow: 7px 7px 7px #666;
+}
