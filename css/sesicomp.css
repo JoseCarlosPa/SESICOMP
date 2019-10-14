@@ -16,6 +16,18 @@
     font-weight: bold;
 }
 
+.links{
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+}
+.links:hover{
+    color: #dadada;
+    font-size: 105%;
+    text-decoration: none;
+
+}
+
 /*Slides------------------*/
 .container_slides{
     margin-bottom: 10%;
