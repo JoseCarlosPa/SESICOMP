@@ -1,14 +1,15 @@
 /*Nav Bar---------------*/
-.navbar_margin{
+.navbar_margin {
     margin-left: 3%;
     margin-top: 3%;
 }
 
-.items_nav_bar{
+.items_nav_bar {
     margin-left: 20%;
     color: white;
 }
-.texto_nav_bar{
+
+.texto_nav_bar {
     margin-top: 15%;
     text-align: center;
     font-family: Roboto-Bold;
@@ -17,12 +18,13 @@
     font-weight: bold;
 }
 
-.links{
+.links {
     color: white;
     font-size: 100%;
     text-decoration: none;
 }
-.links:hover{
+
+.links:hover {
     color: #dadada;
     font-size: 105%;
     text-decoration: none;
@@ -30,22 +32,22 @@
 }
 
 /*Slides------------------*/
-.container_slides{
+.container_slides {
     margin-bottom: 10%;
 }
 
-.titulo_slides{
+.titulo_slides {
     font-weight: bold;
     font-size: 300%;
     color: white;
 }
 
-.texto_slides{
+.texto_slides {
     font-weight: normal;
     font-size: 120%;
 }
 
-.button_slide{
+.button_slide {
     background: transparent;
     border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
@@ -59,7 +61,8 @@
     align-content: center;
 
 }
-.button_slide:hover{
+
+.button_slide:hover {
     background: #0078b6;
     border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
@@ -73,21 +76,28 @@
     align-content: center;
 
 }
+
 /*Imagenes de Fondos ----------------------------*/
 
-.container_prodcutos{
+.container_prodcutos {
     background-image: url("backround/triangles_back 001.png");
     background-repeat: no-repeat;
     background-size: 20%;
 }
 
+.container_servicios{
+    background-image: url("backround/img_servicios.png");
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
 /*Productos-----------------------------*/
 
-.container_prodcutos_general{
+.container_prodcutos_general {
     margin-left: 7%;
 }
 
-.text_productos{
+.text_productos {
 
     font-weight: bold;
     font-size: 150%;
@@ -95,26 +105,184 @@
     line-height: 24px;
 }
 
-.container_cards_chapp{
-    background: purple;
+.container_cards_chapp {
+    background: rgba(52, 85, 247, 1);
+    background: -moz-linear-gradient(left, rgba(52, 85, 247, 1) 0%, rgba(138, 39, 230, 1) 91%, rgba(138, 39, 230, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52, 85, 247, 1)), color-stop(91%, rgba(138, 39, 230, 1)), color-stop(100%, rgba(138, 39, 230, 1)));
+    background: -webkit-linear-gradient(left, rgba(52, 85, 247, 1) 0%, rgba(138, 39, 230, 1) 91%, rgba(138, 39, 230, 1) 100%);
+    background: -o-linear-gradient(left, rgba(52, 85, 247, 1) 0%, rgba(138, 39, 230, 1) 91%, rgba(138, 39, 230, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(52, 85, 247, 1) 0%, rgba(138, 39, 230, 1) 91%, rgba(138, 39, 230, 1) 100%);
+    background: linear-gradient(to right, rgba(52, 85, 247, 1) 0%, rgba(138, 39, 230, 1) 91%, rgba(138, 39, 230, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3455f7', endColorstr='#8a27e6', GradientType=1);
     border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
     -webkit-border-radius: 30px 30px 30px 30px;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-right: 30%;
-    width: 80em;
-    height: 20em;
-    box-shadow: 7px 7px 7px #666;        /* Sombra normal */
+    width: 80%;
+    height: 100%;
+    box-shadow: 7px 7px 7px #666; /* Sombra normal */
 }
 
-.container_cards_msys{
-    background: #ff8400;
+.container_cards_msys {
+    background: rgba(250, 192, 75, 1);
+    background: -moz-linear-gradient(left, rgba(250, 192, 75, 1) 0%, rgba(255, 153, 0, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(250, 192, 75, 1)), color-stop(100%, rgba(255, 153, 0, 1)));
+    background: -webkit-linear-gradient(left, rgba(250, 192, 75, 1) 0%, rgba(255, 153, 0, 1) 100%);
+    background: -o-linear-gradient(left, rgba(250, 192, 75, 1) 0%, rgba(255, 153, 0, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(250, 192, 75, 1) 0%, rgba(255, 153, 0, 1) 100%);
+    background: linear-gradient(to right, rgba(250, 192, 75, 1) 0%, rgba(255, 153, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fac04b', endColorstr='#ff9900', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1e767', endColorstr='#feb645', GradientType=1);
     border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
     -webkit-border-radius: 30px 30px 30px 30px;
-    margin-left: 10%;
-    margin-right: 30%;
-    width: 80em;
-    height: 20em;
+    margin-left: 8%;
+    width: 80%;
+    height: 100%;
     box-shadow: 7px 7px 7px #666;
+}
+
+/*Tarjeta de chapp---------*/
+.logo_chapp_productos {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 7%;
+}
+
+.texto_chapp_productos {
+    margin-top: 5%;
+    margin-left: -5%;
+    margin-bottom: 5%;
+    font-size: 110%;
+    font-weight: normal;
+    color: white;
+}
+
+.button_chapp {
+    background: transparent;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 2px solid white;
+    color: white;
+    width: 80%;
+    height: 2.5em;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.button_chapp:hover {
+    background: rgba(0, 78, 182, 0.64);
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 2px solid white;
+    color: white;
+    width: 80%;
+    height: 2.5em;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.image_chapp_producto{
+    height: 100%;
+    width: 137%;
+}
+
+/*Tarjeta de MSys---------*/
+.logo_msys_productos {
+    margin-top: 9%;
+    margin-bottom: 7%;
+    margin-left: 7%;
+}
+
+.texto_msys_productos {
+    margin-top: 5%;
+    margin-left: -5%;
+    margin-bottom: 5%;
+    font-size: 110%;
+    font-weight: normal;
+    color: white;
+}
+
+.button_msys {
+    background: transparent;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 2px solid white;
+    color: white;
+    width: 80%;
+    height: 2.5em;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.button_msys:hover {
+    background: rgba(182, 120, 0, 0.64);
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 2px solid white;
+    color: white;
+    width: 80%;
+    height: 2.5em;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.image_msys_producto{
+    margin-top: 15%;
+    margin-left: -5%;
+    height: 90%;
+    width: 130%;
+}
+
+/*Servicios --------------*/
+
+.text_servicios {
+
+    font-weight: bold;
+    font-size: 160%;
+    color: #143557;
+    line-height: 24px;
+}
+.container_servicios_general {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.cuadrado_opaco_servicios{
+    height: 100%;
+    width: 100%;
+    background: white;
+    opacity: .65;
+}
+
+/*Cuadros opacos----------------*/
+.container_texto_servicios_cuadro{
+    margin-top: 5%;
+    margin-left: 8%;
+
+}
+
+.titulo_cuadro_servicios{
+    color: darkblue;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.texto_cuadro_servicios{
+    font-size: 100%;
+    font-weight: normal;
+    margin-right: 10%;
 }
