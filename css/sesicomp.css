@@ -85,10 +85,30 @@
     background-size: 20%;
 }
 
-.container_servicios{
+.container_servicios {
     background-image: url("backround/img_servicios.png");
     background-repeat: no-repeat;
     background-size: 110%;
+}
+
+.container_queines {
+    background-image: url("backround/quienes_backgrpund.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.container_queines2 {
+    background-image: url("backround/sesicomp_emblem.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+
+}
+
+.container_certificaciones {
+    background-image: url("backround/backgrpund_certificaciones.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
 }
 
 /*Productos-----------------------------*/
@@ -189,7 +209,7 @@
 
 }
 
-.image_chapp_producto{
+.image_chapp_producto {
     height: 100%;
     width: 137%;
 }
@@ -240,7 +260,7 @@
 
 }
 
-.image_msys_producto{
+.image_msys_producto {
     margin-top: 15%;
     margin-left: -5%;
     height: 90%;
@@ -256,12 +276,13 @@
     color: #143557;
     line-height: 24px;
 }
+
 .container_servicios_general {
     margin-left: 7%;
     margin-right: 7%;
 }
 
-.cuadrado_opaco_servicios{
+.cuadrado_opaco_servicios {
     height: 100%;
     width: 100%;
     background: white;
@@ -269,43 +290,51 @@
 }
 
 /*Cuadros opacos----------------*/
-.container_texto_servicios_cuadro{
+.container_texto_servicios_cuadro {
     margin-top: 5%;
     margin-left: 8%;
 
 }
 
-.titulo_cuadro_servicios{
+.titulo_cuadro_servicios {
     color: darkblue;
     font-size: 120%;
     font-weight: bold;
 }
 
-.texto_cuadro_servicios{
+.texto_cuadro_servicios {
     font-size: 100%;
     font-weight: normal;
     margin-right: 10%;
 }
 
-.container_footer{
-    background: #2D3590;
+.container_footer {
+    background: rgba(45, 53, 144, 1);
+    background: -moz-linear-gradient(left, rgba(45, 53, 144, 1) 0%, rgba(32, 53, 114, 1) 47%, rgba(20, 53, 87, 1) 88%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(45, 53, 144, 1)), color-stop(47%, rgba(32, 53, 114, 1)), color-stop(88%, rgba(20, 53, 87, 1)));
+    background: -webkit-linear-gradient(left, rgba(45, 53, 144, 1) 0%, rgba(32, 53, 114, 1) 47%, rgba(20, 53, 87, 1) 88%);
+    background: -o-linear-gradient(left, rgba(45, 53, 144, 1) 0%, rgba(32, 53, 114, 1) 47%, rgba(20, 53, 87, 1) 88%);
+    background: -ms-linear-gradient(left, rgba(45, 53, 144, 1) 0%, rgba(32, 53, 114, 1) 47%, rgba(20, 53, 87, 1) 88%);
+    background: linear-gradient(to right, rgba(45, 53, 144, 1) 0%, rgba(32, 53, 114, 1) 47%, rgba(20, 53, 87, 1) 88%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2d3590', endColorstr='#143557', GradientType=1);
     color: white;
 }
-.footer_margin{
+
+.footer_margin {
     margin-top: 2%;
     margin-left: 5%;
 }
 
-.form_container{
+.form_container {
     margin-left: 10%;
 }
 
-.form_css{
+.form_css {
     background: transparent;
     color: white;
 }
 
-.button_form{
+.button_form {
     background: transparent;
     border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
@@ -319,7 +348,7 @@
     align-content: center;
 }
 
-.button_form:hover{
+.button_form:hover {
     background: rgba(0, 0, 188, 0.8);
     border-radius: 30px 30px 30px 30px;
     -moz-border-radius: 30px 30px 30px 30px;
@@ -331,4 +360,60 @@
     text-align: center;
     align-items: center;
     align-content: center;
+}
+
+/*Seccion de quienes somos -------------------------- */
+
+.text_quienes {
+    color: #143557;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.title_valores {
+    margin-top: 10%;
+    margin-left: 15%;
+    color: #989eac;
+    font-weight: normal;
+    font-size: 250%;
+}
+
+.text_valores {
+    margin-left: 15%;
+    color: #444444;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+/* Nuestros clientes ---------------------*/
+
+.title_nuestros_c {
+    color: #1F2977;
+    font-weight: normal;
+    font-size: 150%;
+}
+
+/*Certificaciones ---------------------*/
+
+.certificacioens_margin {
+    margin-left: 5%;
+}
+
+.texto_ceritificacion {
+    color: #1F2977;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+/*Footer--------------*/
+
+.container_footer_2 {
+    color: white;
+    background: #212121;
+}
+
+.text_footer_2 {
+    color: white;
+    font-weight: normal;
+    font-size: 70%;
 }
