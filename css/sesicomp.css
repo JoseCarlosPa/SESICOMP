@@ -286,3 +286,49 @@
     font-weight: normal;
     margin-right: 10%;
 }
+
+.container_footer{
+    background: #2D3590;
+    color: white;
+}
+.footer_margin{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.form_container{
+    margin-left: 10%;
+}
+
+.form_css{
+    background: transparent;
+    color: white;
+}
+
+.button_form{
+    background: transparent;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 2px solid white;
+    color: white;
+    width: 20%;
+    height: 2.5em;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.button_form:hover{
+    background: rgba(0, 0, 188, 0.8);
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 2px solid white;
+    color: white;
+    width: 20%;
+    height: 2.5em;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
