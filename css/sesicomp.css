@@ -1,10 +1,16 @@
 /*Nav Bar---------------*/
+.navbar {
+    background-color: rgb(34, 44, 108);;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
 .navbar_margin {
     margin-left: 3%;
     margin-top: 3%;
 }
 
-.items_nav_bar {
+.nav-link {
     margin-left: 20%;
     color: white;
 }
@@ -29,6 +35,11 @@
     font-size: 105%;
     text-decoration: none;
 
+}
+
+.navbar-toggler{
+    color: white;
+    font-size: 40px;
 }
 
 /*Slides------------------*/
