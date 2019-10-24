@@ -1,8 +1,12 @@
 /*Nav Bar---------------*/
+p.ex1 {
+    margin-top: 225px;
+  }
+
 .navbar {
     background-color: rgb(34, 44, 108);;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
-    min-height: 100px;
+    min-height: 120px;
 }
 
 .navbar_margin {
@@ -56,6 +60,7 @@
 .texto_slides {
     font-weight: normal;
     font-size: 120%;
+    color: white;
 }
 
 .button_slide {
@@ -428,3 +433,17 @@
     font-weight: normal;
     font-size: 70%;
 }
+
+@media (max-width: 575.98px) {
+    /* .navbar {
+        background-color: transparent;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+        min-height: 20px;
+    } */
+
+    .logo_msys_productos {
+        width: 40%;
+        height: 40%;
+    }
+}
+
