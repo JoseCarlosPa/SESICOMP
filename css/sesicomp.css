@@ -4,7 +4,7 @@ p.ex1 {
   }
 
 .navbar {
-    background-color: rgb(34, 44, 108);;
+    background-color: rgb(34, 44, 108);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
     min-height: 120px;
 }
@@ -125,6 +125,10 @@ p.ex1 {
     background-repeat: no-repeat;
     background-size: 100%;
 
+}
+.container_tec {
+    background-image: url("backround/quienes_backgrpund.png");
+    background-size: 50%;
 }
 
 /*Productos-----------------------------*/
@@ -305,10 +309,25 @@ p.ex1 {
     opacity: .65;
 }
 
+.button_mas {
+    background: rgb(34, 44, 108);
+    border-radius: 60px 60px 60px 60px;
+    -moz-border-radius: 60px 60px 60px 60px;
+    -webkit-border-radius: 60px 60px 60px 60px;
+    border: 2px solid black;
+    color: white;
+    width: 12%;
+    height: 3em;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+
 /*Cuadros opacos----------------*/
 .container_texto_servicios_cuadro {
     margin-top: 5%;
-    margin-left: 8%;
+    margin-left: 1%;
 
 }
 
@@ -319,7 +338,7 @@ p.ex1 {
 }
 
 .texto_cuadro_servicios {
-    font-size: 100%;
+    font-size: 90%;
     font-weight: normal;
     margin-right: 10%;
 }
@@ -432,6 +451,31 @@ p.ex1 {
     color: white;
     font-weight: normal;
     font-size: 70%;
+}
+
+/*Tec--------------*/
+
+.title_tec {
+    margin-top: 5%;
+    margin-left: 5%;
+    color:rgb(34, 44, 108);
+    font-weight: normal;
+    font-size: 250%;
+}
+
+.title_tec4 {
+    margin-top: 5%;
+    margin-left: 5%;
+    color:rgb(34, 44, 108);
+    font-weight: normal;
+    font-size: 150%;
+}
+.text_tec {
+    margin-left: 5%;
+    margin-right: 2%;
+    color: black;
+    font-weight: normal;
+    font-size: 100%;
 }
 
 @media (max-width: 575.98px) {
